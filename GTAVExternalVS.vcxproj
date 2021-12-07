@@ -141,17 +141,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="GTAVExternalVS.cpp" />
-    <ClCompile Include="mem.cpp" />
-    <ClCompile Include="pattern.cpp" />
-    <ClCompile Include="proc.cpp" />
+    <ClCompile Include="Src\GTAVExternalVS.cpp" />
+    <ClCompile Include="Src\mem.cpp" />
+    <ClCompile Include="Src\pattern.cpp" />
+    <ClCompile Include="Src\proc.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="mem.h" />
-    <ClInclude Include="pattern.h" />
-    <ClInclude Include="proc.h" />
-    <ClInclude Include="sigs.h" />
-    <ClInclude Include="sigscanner.h" />
+    <ClInclude Include="Src\Headers\mem.h" />
+    <ClInclude Include="Src\Headers\pattern.h" />
+    <ClInclude Include="Src\Headers\proc.h" />
+    <ClInclude Include="Src\Headers\sigs.h" />
+    <ClInclude Include="Src\Headers\sigscanner.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
